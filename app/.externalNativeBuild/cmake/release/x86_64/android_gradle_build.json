@@ -1,0 +1,59 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/atif/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/atif/Documents/projects/Studio\\ Projects/VideoManipulation/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"sample.lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "sample.lib",
+			"buildCommand" : "/Users/atif/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/atif/Documents/projects/Studio\\ Projects/VideoManipulation/app/.externalNativeBuild/cmake/release/x86_64 --target sample.lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/atif/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/atif/Library/Android/sdk/ndk-bundle/sysroot  -Dsample_lib_EXPORTS -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/cpp/sample/native-lib.cpp",
+					"workingDirectory" : "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/cmake/release/obj/x86_64/libsample.lib.so",
+			"toolchain" : "4256505703578137470"
+		},
+		"video-processing.lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "video-processing.lib",
+			"buildCommand" : "/Users/atif/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/atif/Documents/projects/Studio\\ Projects/VideoManipulation/app/.externalNativeBuild/cmake/release/x86_64 --target video-processing.lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/atif/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/atif/Library/Android/sdk/ndk-bundle/sysroot  -Dvideo_processing_lib_EXPORTS -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/atif/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/cpp/video_process/video-process.cpp",
+					"workingDirectory" : "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/cmake/release/obj/x86_64/libvideo-processing.lib.so",
+			"toolchain" : "4256505703578137470"
+		}
+	},
+	"toolchains" : 
+	{
+		"4256505703578137470" : 
+		{
+			"cCompilerExecutable" : "/Users/atif/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/atif/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

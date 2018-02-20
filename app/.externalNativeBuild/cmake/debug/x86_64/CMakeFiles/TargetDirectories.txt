@@ -1,0 +1,4 @@
+/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/sample.lib.dir
+/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/video-processing.lib.dir
