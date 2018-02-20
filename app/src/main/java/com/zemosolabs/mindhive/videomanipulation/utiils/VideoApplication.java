@@ -1,4 +1,4 @@
-package com.zemosolabs.mindhive.videomanipulation;
+package com.zemosolabs.mindhive.videomanipulation.utiils;
 
 import android.app.Application;
 
