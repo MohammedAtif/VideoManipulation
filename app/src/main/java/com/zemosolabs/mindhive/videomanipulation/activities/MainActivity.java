@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "MainActivity";
 
-    private boolean isAnimated = true;
+    private boolean isAnimated = false;
 
     private FloatingActionButton regularVideoController;
     private FloatingActionButton animatedVideoController;
