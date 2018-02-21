@@ -5,10 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.zemosolabs.mindhive.videomanipulation.activities.MainActivity">
-    <TextureView
-        android:id="@+id/video_texture_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+
+    <com.zemosolabs.mindhive.videomanipulation.custom_views.CircularFrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.zemosolabs.mindhive.videomanipulation.custom_views.BurstPlaybackTextureView
+            android:id="@+id/video_texture_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:isAuthorMode="true"/>
+    </com.zemosolabs.mindhive.videomanipulation.custom_views.CircularFrameLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton"

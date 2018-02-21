@@ -11,11 +11,12 @@ public class VideoApplication extends Application {
 
     static {
         System.loadLibrary("sample.lib");
-        System.loadLibrary("video-process.lib");
+        System.loadLibrary("video-processing.lib");
     }
 
     @Override
     public void onCreate() {
         super.onCreate();
     }
+
 }
