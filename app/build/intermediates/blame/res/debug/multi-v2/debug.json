@@ -305,38 +305,6 @@
             ]
         },
         {
-            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1832",
-                        "endColumns": "100",
-                        "endOffsets": "1928"
-                    }
-                },
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,1754",
-                        "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
-                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
@@ -522,17 +490,33 @@
             ]
         },
         {
-            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat",
+            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-v25/values-v25.xml",
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/res/values-ja/values-ja.xml",
                     "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1832",
+                        "endColumns": "100",
+                        "endOffsets": "1928"
+                    }
+                },
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,202,295,400,482,580,688,765,841,919,1021,1120,1215,1318,1413,1509,1657,1754",
+                        "endColumns": "96,92,104,81,97,107,76,75,77,101,98,94,102,94,95,147,96,77",
+                        "endOffsets": "197,290,395,477,575,683,760,836,914,1016,1115,1210,1313,1408,1504,1652,1749,1827"
                     }
                 }
             ]
@@ -570,6 +554,22 @@
             ]
         },
         {
+            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat",
             "map": [
                 {
@@ -602,35 +602,16 @@
             ]
         },
         {
-            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat",
+            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e6820aa25a27821078783e4d7b676681/res/values-land/values-land.xml",
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
-                    }
-                },
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
                     }
                 }
             ]
@@ -668,16 +649,35 @@
             ]
         },
         {
-            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e6820aa25a27821078783e4d7b676681/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,126,197,267,337,405",
-                        "endColumns": "70,70,69,69,67,67",
-                        "endOffsets": "121,192,262,332,400,468"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]
@@ -1180,38 +1180,6 @@
             ]
         },
         {
-            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/res/values-es/values-es.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1975",
-                        "endColumns": "100",
-                        "endOffsets": "2071"
-                    }
-                },
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-es/values-es.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,335,443,528,629,757,842,924,1006,1113,1213,1312,1420,1527,1634,1793,1893",
-                        "endColumns": "116,112,107,84,100,127,84,81,81,106,99,98,107,106,106,158,99,81",
-                        "endOffsets": "217,330,438,523,624,752,837,919,1001,1108,1208,1307,1415,1522,1629,1788,1888,1970"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat",
             "map": [
                 {
@@ -1239,6 +1207,38 @@
                         "startOffsets": "1949",
                         "endColumns": "100",
                         "endOffsets": "2045"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/res/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1975",
+                        "endColumns": "100",
+                        "endOffsets": "2071"
+                    }
+                },
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,222,335,443,528,629,757,842,924,1006,1113,1213,1312,1420,1527,1634,1793,1893",
+                        "endColumns": "116,112,107,84,100,127,84,81,81,106,99,98,107,106,106,158,99,81",
+                        "endOffsets": "217,330,438,523,624,752,837,919,1001,1108,1208,1307,1415,1522,1629,1788,1888,1970"
                     }
                 }
             ]
@@ -1558,38 +1558,6 @@
             ]
         },
         {
-            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1943",
-                        "endColumns": "100",
-                        "endOffsets": "2039"
-                    }
-                },
-                {
-                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,304,423,507,614,731,809,888,969,1079,1186,1284,1390,1497,1598,1759,1862",
-                        "endColumns": "103,94,118,83,106,116,77,78,80,109,106,97,105,106,100,160,102,80",
-                        "endOffsets": "204,299,418,502,609,726,804,883,964,1074,1181,1279,1385,1492,1593,1754,1857,1938"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat",
             "map": [
                 {
@@ -1617,6 +1585,38 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1943",
+                        "endColumns": "100",
+                        "endOffsets": "2039"
+                    }
+                },
+                {
+                    "source": "/Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,304,423,507,614,731,809,888,969,1079,1186,1284,1390,1497,1598,1759,1862",
+                        "endColumns": "103,94,118,83,106,116,77,78,80,109,106,97,105,106,100,160,102,80",
+                        "endOffsets": "204,299,418,502,609,726,804,883,964,1074,1181,1279,1385,1492,1593,1754,1857,1938"
                     }
                 }
             ]

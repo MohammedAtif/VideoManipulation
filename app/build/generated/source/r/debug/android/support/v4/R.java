@@ -73,11 +73,11 @@ public final class R {
         public static final int action_image = 0x7f080011;
         public static final int action_text = 0x7f080017;
         public static final int actions = 0x7f080018;
-        public static final int async = 0x7f08001e;
-        public static final int blocking = 0x7f080022;
-        public static final int cancel_action = 0x7f080025;
-        public static final int chronometer = 0x7f08002b;
-        public static final int end_padder = 0x7f08003e;
+        public static final int async = 0x7f08001f;
+        public static final int blocking = 0x7f080023;
+        public static final int cancel_action = 0x7f080026;
+        public static final int chronometer = 0x7f08002c;
+        public static final int end_padder = 0x7f08003f;
         public static final int forever = 0x7f080049;
         public static final int icon = 0x7f08004d;
         public static final int icon_group = 0x7f08004e;
@@ -90,14 +90,14 @@ public final class R {
         public static final int notification_background = 0x7f080064;
         public static final int notification_main_column = 0x7f080065;
         public static final int notification_main_column_container = 0x7f080066;
-        public static final int right_icon = 0x7f080071;
-        public static final int right_side = 0x7f080072;
-        public static final int status_bar_latest_event_content = 0x7f080097;
-        public static final int tag_transition_group = 0x7f08009b;
-        public static final int text = 0x7f08009c;
-        public static final int text2 = 0x7f08009d;
-        public static final int time = 0x7f0800a3;
-        public static final int title = 0x7f0800a4;
+        public static final int right_icon = 0x7f080072;
+        public static final int right_side = 0x7f080073;
+        public static final int status_bar_latest_event_content = 0x7f080098;
+        public static final int tag_transition_group = 0x7f08009c;
+        public static final int text = 0x7f08009d;
+        public static final int text2 = 0x7f08009e;
+        public static final int time = 0x7f0800a4;
+        public static final int title = 0x7f0800a5;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f090004;

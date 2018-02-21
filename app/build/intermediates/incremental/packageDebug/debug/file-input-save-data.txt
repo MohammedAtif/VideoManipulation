@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Feb 21 16:12:49 IST 2018
+#Wed Feb 21 16:39:30 IST 2018
 4.path=classes.dex
 8.set=NATIVE_RESOURCE
 6.path=lib/x86_64/libsample.lib.so

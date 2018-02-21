@@ -29,7 +29,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private static final String TAG = "MainActivity";
 
-    private FloatingActionButton videoController;
+    private boolean isAnimated = true;
+
+    private FloatingActionButton regularVideoController;
+    private FloatingActionButton animatedVideoController;
     private TextureView mVideoTexture;
     private VideoTextureRenderer videoTextureRenderer;
     private SimpleExoPlayer simpleExoPlayer;
@@ -38,13 +41,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        videoController = findViewById(R.id.floatingActionButton);
+        regularVideoController = findViewById(R.id.regular);
+        animatedVideoController = findViewById(R.id.animated);
         mVideoTexture = findViewById(R.id.video_texture_view);
         mVideoTexture.setSurfaceTextureListener(surfaceTextureListener);
         simpleExoPlayer = ExoPlayerFactory.newSimpleInstance(this, ExoPlayerHelper.getTrackSelector());
         simpleExoPlayer.prepare(ExoPlayerHelper.getMediaSource(this, "beach.mp4", extractorEventListener, false, true));
         simpleExoPlayer.addListener(playerEventListener);
-        videoController.setOnClickListener(this);
+        regularVideoController.setOnClickListener(this);
+        animatedVideoController.setOnClickListener(this);
+    }
+
+    @Override
+    protected void onPause() {
+        if(simpleExoPlayer != null){
+            simpleExoPlayer.release();
+            simpleExoPlayer = null;
+            regularVideoController.setSelected(false);
+            animatedVideoController.setSelected(false);
+        }
+        super.onPause();
     }
 
     private void initRenderer(int width, int height) {
@@ -121,7 +137,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextureView.SurfaceTextureListener surfaceTextureListener = new TextureView.SurfaceTextureListener() {
         @Override
         public void onSurfaceTextureAvailable(SurfaceTexture surface, int width, int height) {
-            initRenderer(width, height);
+            if(isAnimated) {
+                initRenderer(width, height);
+            }else{
+                simpleExoPlayer.setVideoSurface(new Surface(surface));
+            }
         }
 
         @Override
@@ -157,9 +177,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        if(v.equals(videoController)){
-            simpleExoPlayer.setPlayWhenReady(!videoController.isSelected());
-            videoController.setSelected(!videoController.isSelected());
+        if(v.equals(regularVideoController)){
+            simpleExoPlayer.setPlayWhenReady(!regularVideoController.isSelected());
+            regularVideoController.setSelected(!regularVideoController.isSelected());
+            animatedVideoController.setVisibility(View.GONE);
+        }else if(v.equals(animatedVideoController)){
+            simpleExoPlayer.setPlayWhenReady(!animatedVideoController.isSelected());
+            animatedVideoController.setSelected(!animatedVideoController.isSelected());
+            regularVideoController.setVisibility(View.GONE);
         }
     }
 }
