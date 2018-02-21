@@ -1,0 +1,118 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:design:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e6820aa25a27821078783e4d7b676681/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/913dd744e7bcaa67d2a6578b1e74f71f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.1] /Users/atif/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.1.aar/f9021aeaba1ebff8a3c57014696613d9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9e8e9cafd7b337a397e42b89fe5f927b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7689e89ff93ff537c64f63daf8ca5ca8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/80515372a78f54d44bacfe265b49c807/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/bfc4b9a5e315605acd8b21b47cd9a9e6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/607e238506b4a8478f0d02a0c74ee4f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/bf4a580b52d4e6816c83f2738589bc66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/a30a2eb0c374f1d1f545bc948df44207/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/fe08aeef2930065d8153a419af334b54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/195bc444f1cad012b38dcf1279e38486/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/atif/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f1ccc041761f369395b54e3edd5383c7/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:3:5-56
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/913dd744e7bcaa67d2a6578b1e74f71f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/913dd744e7bcaa67d2a6578b1e74f71f/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:6:9-48
+activity#com.zemosolabs.mindhive.videomanipulation.activities.Splash
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:13:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.zemosolabs.mindhive.videomanipulation.activities.MainActivity
+ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:20:9-70
+	android:name
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml:20:19-58
+uses-sdk
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e6820aa25a27821078783e4d7b676681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/e6820aa25a27821078783e4d7b676681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d2789320b4a12faa34381d793b4f6165/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/913dd744e7bcaa67d2a6578b1e74f71f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/913dd744e7bcaa67d2a6578b1e74f71f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.1] /Users/atif/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.1.aar/f9021aeaba1ebff8a3c57014696613d9/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.6.1] /Users/atif/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.6.1.aar/f9021aeaba1ebff8a3c57014696613d9/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:support-v4:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9e8e9cafd7b337a397e42b89fe5f927b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/9e8e9cafd7b337a397e42b89fe5f927b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7689e89ff93ff537c64f63daf8ca5ca8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7689e89ff93ff537c64f63daf8ca5ca8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/80515372a78f54d44bacfe265b49c807/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/80515372a78f54d44bacfe265b49c807/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/bfc4b9a5e315605acd8b21b47cd9a9e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/bfc4b9a5e315605acd8b21b47cd9a9e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/607e238506b4a8478f0d02a0c74ee4f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/607e238506b4a8478f0d02a0c74ee4f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/bf4a580b52d4e6816c83f2738589bc66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/bf4a580b52d4e6816c83f2738589bc66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/a30a2eb0c374f1d1f545bc948df44207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/a30a2eb0c374f1d1f545bc948df44207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/fe08aeef2930065d8153a419af334b54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/fe08aeef2930065d8153a419af334b54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/195bc444f1cad012b38dcf1279e38486/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/195bc444f1cad012b38dcf1279e38486/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/atif/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/2dc9a1c1dceed5f5c4f3fcaaee6e8740/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/atif/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f1ccc041761f369395b54e3edd5383c7/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/atif/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f1ccc041761f369395b54e3edd5383c7/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		ADDED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/src/main/AndroidManifest.xml

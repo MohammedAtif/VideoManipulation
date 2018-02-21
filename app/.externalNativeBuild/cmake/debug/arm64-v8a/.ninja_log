@@ -1,0 +1,9 @@
+# ninja log v5
+1	35	0	CMakeFiles/video-processing.lib.dir/video_process/video-process.cpp.o	1f5ef713a6bdb383
+35	83	0	/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/cmake/debug/obj/arm64-v8a/libvideo-processing.lib.so	30c7ae148f32a897
+0	141	0	CMakeFiles/sample.lib.dir/sample/native-lib.cpp.o	2343d1ee659a3c9e
+142	232	0	/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsample.lib.so	20225d00f4789cf9
+0	33	0	CMakeFiles/video-processing.lib.dir/video_process/video-process.cpp.o	1f5ef713a6bdb383
+33	71	0	/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/cmake/debug/obj/arm64-v8a/libvideo-processing.lib.so	30c7ae148f32a897
+1	160	0	CMakeFiles/sample.lib.dir/sample/native-lib.cpp.o	2343d1ee659a3c9e
+161	252	0	/Users/atif/Documents/projects/Studio Projects/VideoManipulation/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsample.lib.so	20225d00f4789cf9

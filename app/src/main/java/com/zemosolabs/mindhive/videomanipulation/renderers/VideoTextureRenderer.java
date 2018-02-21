@@ -22,6 +22,8 @@ import java.util.Scanner;
 
 public class VideoTextureRenderer extends TextureSurfaceRenderer implements SurfaceTexture.OnFrameAvailableListener
 {
+
+    private Triangle triangle;
     private static final String TAG = VideoTextureRenderer.class.getSimpleName();
     private static float yCoord = 1.0f;
     private static float xCoord = 0.5615f;
@@ -254,7 +256,7 @@ public class VideoTextureRenderer extends TextureSurfaceRenderer implements Surf
         GLES20.glDrawElements(GLES20.GL_TRIANGLES, drawOrder.length, GLES20.GL_UNSIGNED_SHORT, drawListBuffer);
         GLES20.glDisableVertexAttribArray(positionHandle);
         GLES20.glDisableVertexAttribArray(textureCoordinateHandle);
-
+        triangle.draw();
         return true;
     }
 
@@ -289,7 +291,7 @@ public class VideoTextureRenderer extends TextureSurfaceRenderer implements Surf
         setupVertexBuffer();
         setupTexture(ctx);
         loadShaders(ctx);
-
+        triangle = new Triangle();
         rendererEvents.onInitialized();
     }
 
@@ -364,7 +366,7 @@ public class VideoTextureRenderer extends TextureSurfaceRenderer implements Surf
         rotationMatrix = Arrays.copyOf(tempRotationM, 16);
     }
 
-    private float brightness = 0, saturation = 0;
+    private float brightness = 0.5f, saturation = -0.5f;
 
     public void setBrightness(float brightness) {
         this.brightness = brightness;

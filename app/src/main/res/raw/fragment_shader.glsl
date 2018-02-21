@@ -7,8 +7,6 @@ uniform float saturation;
 uniform bool isBlur;
 varying vec2 v_TexCoordinate;
 
-//enum { ry, yg, gc, cb, bm, mr, wk };
-
 int ry = 1000;
 int yg = 1001;
 int gc = 1002;
@@ -63,11 +61,6 @@ vec4 applyColorTransform(vec4 rgb, float br, float sa) {
 //    c = d>0.0f ? (x-y)/d : 0.0f;
     c = d > 0.0f && d < 1.0 ? (x-y) / d : 0.0f;
 
-    // adapt the boundary conditions
-//    const float m = 0.05;
-//    c = sa > 0.0f ? (c+sa*m)/(1.0f+sa*m) : c / (1.0f-sa*m);
-//    n = br > 0.0f ? (n+br*m)/(1.0f+br*m) : n / (1.0f-br*m);
-
     //  apply the c transform
     float q = 1.0f - sa * (1.0f - 2.0f * c);
     c = q > 0.0f ? c * (1.0f + sa)/q : 0.0f;
@@ -107,38 +100,12 @@ vec4 applyColorTransform(vec4 rgb, float br, float sa) {
     } else {
         r = x; g = z; b = y;
     }
-//        switch(p) {
-//            case ry:    r = x; g = z; b = y;	break;
-//            case bm:    r = z; g = y; b = x;	break;
-//            case mr: 	r = x; g = y; b = z;	break;
-//            case yg: 	r = z; g = x; b = y;	break;
-//            case gc: 	r = y; g = x; b = z;	break;
-//            case cb:    r = y; g = z; b = x;	break;
-//            case wk:    r = x; g = z; b = y;	break;
-//        }
-
-//        rgb.r = r;
-//        rgb.g = g;
-//        rgb.b = b;
     return vec4(r, g, b, rgb.w);
 }
 
 void main () {
 	const vec4 W = vec4(0.2125, 0.7154, 0.0721, 0.0);
 	vec4 color = texture2D(texture, v_TexCoordinate);
-
-//	vec4 intensity = vec4(dot(color, W));
-//	vec4 saturatedColor = mix(intensity, color, saturation);
-//	vec4 brightenedColor = saturatedColor + vec4(brightness, brightness, brightness, 0.0);
-
-//  gl_FragColor is internal variable used by GLES to update the shader color
-//	gl_FragColor = brightenedColor;
-
 	gl_FragColor = applyColorTransform(color, brightness, saturation); // Not calling george's color transform code.
-
-
-//	gl_FragColor = saturatedColor + vec4(brightness, brightness, brightness, 0.0);
-//  vec4 color = texture2D(texture, v_TexCoordinate);
-//  gl_FragColor = color;
 }
 
